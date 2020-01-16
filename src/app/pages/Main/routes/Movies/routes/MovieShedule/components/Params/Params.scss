@@ -1,0 +1,44 @@
+.movie-shedule-params {
+  width: 100%;
+  background: var(--third-back-color);
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  border-right: 0;
+  @media (min-width: 767px) {
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 53.5px 0;
+    justify-content: space-between;
+  }
+
+  &__dropdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: var(--padding-space-big);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 430px) {
+      width: 50%;
+      &:nth-child(3),
+      &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (min-width: 1220px) {
+      width: initial;
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.movie__hero {
+  height: 600px;
+
+  @media (min-width: 1901px) {
+    height: 400px;
+  }
+}

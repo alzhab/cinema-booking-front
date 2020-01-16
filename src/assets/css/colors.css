@@ -1,0 +1,23 @@
+:root {
+  --main-back-color: #001232;
+  --second-back-color: #022054;
+  --third-back-color: #05245b;
+  --fourth-back-color: #011d4f;
+  --fifth-back-color: #183060;
+
+  --main-back-color-opacity: #001232a1;
+
+  --border-color: #0e2d68;
+  --second-back-color: #0c0e4b;
+
+  --main-text-color: #fff;
+  --second-text-color: #e6edff;
+  --third-text-color: #91a3da;
+
+  --gradient: linear-gradient(282deg, rgba(87, 96, 252, 1) 0%, rgba(214, 74, 110, 1) 100%);
+  --second-gradient: linear-gradient(282deg, rgba(20, 74, 198, 1) 0%, rgba(167, 83, 241, 1) 100%);
+  --third-gradient: linear-gradient(282deg, rgba(98, 7, 185, 1) 0%, rgba(19, 73, 208, 1) 100%);
+  --fourth-gradient: linear-gradient(28deg, rgba(245, 68, 82, 1) 0%, rgba(245, 60, 161, 1) 100%);
+
+  --active-color: #30d7a9;
+}

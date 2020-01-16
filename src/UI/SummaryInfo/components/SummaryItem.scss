@@ -1,0 +1,24 @@
+.summary-info-item {
+  &__main-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+    span {
+      font-size: 1.4rem;
+    }
+  }
+  &__second-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--padding-space-small);
+    span {
+      display: inline-block;
+      color: var(--third-text-color);
+    }
+  }
+}

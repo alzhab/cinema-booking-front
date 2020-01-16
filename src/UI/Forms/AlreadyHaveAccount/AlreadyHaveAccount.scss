@@ -1,0 +1,54 @@
+.form-have-acc {
+  background: var(--third-back-color);
+  padding: var(--padding-space-medium);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+
+  @media (min-width: 520px) {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  &__heading {
+    margin-bottom: 15px;
+    h2 {
+      margin: 0;
+      padding-bottom: var(--padding-space-small);
+    }
+    p {
+      margin: 0;
+      color: var(--third-text-color);
+    }
+
+    @media (min-width: 520px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    i {
+      background: var(--gradient);
+      padding: 5px;
+      border-radius: 50px;
+      color: #fff;
+      margin-right: 10px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.459);
+    }
+    span {
+      font-weight: 500;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+  }
+}

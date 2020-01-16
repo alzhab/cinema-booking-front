@@ -1,0 +1,31 @@
+.summary-payment {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+
+  @media (min-width: 1220px) {
+    flex-direction: row;
+  }
+
+  &__switch {
+    width: 100%;
+
+    @media (min-width: 1220px) {
+      width: calc(70% - calc(var(--padding-space-big) * 2));
+    }
+  }
+  &__info {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+    @media (min-width: 700px) {
+      width: 50%;
+    }
+    @media (min-width: 1220px) {
+      width: 30%;
+      margin-top: 0;
+    }
+  }
+}

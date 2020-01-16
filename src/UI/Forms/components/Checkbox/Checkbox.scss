@@ -1,0 +1,41 @@
+.checkbox {
+  width: 100%;
+  padding: var(--padding-space-small) 0;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  box-sizing: border-box;
+  &:hover {
+    background: var(--main-back-color);
+    padding-left: var(--padding-space-small);
+  }
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  label {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: var(--padding-space-big);
+    position: relative;
+    cursor: pointer;
+
+    &:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      border: 1px solid var(--third-text-color);
+      width: 15px;
+      height: 15px;
+      border-radius: 2px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 0.3s ease-out;
+    }
+  }
+
+  input:checked ~ label:after {
+    background: var(--third-text-color);
+  }
+}

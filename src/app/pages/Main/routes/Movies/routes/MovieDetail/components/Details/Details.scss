@@ -1,0 +1,19 @@
+.movie__details {
+  background: var(--third-back-color);
+  border: 1px solid var(--border-color);
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+  margin-bottom: calc(var(--padding-space-big) * 2);
+
+  @media (min-width: 1920px) {
+    margin-bottom: calc(var(--padding-space-big) * 5);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+}

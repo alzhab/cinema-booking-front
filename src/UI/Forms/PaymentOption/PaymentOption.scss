@@ -1,0 +1,19 @@
+.form-payment-option {
+  background: var(--third-back-color);
+  padding: var(--padding-space-medium);
+  h2 {
+    margin: 0;
+    padding-bottom: var(--padding-space-medium);
+    border-bottom: 1px dashed var(--border-color);
+  }
+
+  &__payment-types {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-space-big) 0;
+  }
+
+  &__payment-type {
+    margin-right: var(--padding-space-big);
+  }
+}

@@ -1,0 +1,25 @@
+.offer {
+  border-radius: 10px;
+  padding: var(--padding-space-medium);
+  border: 1px dashed var(--second-back-color);
+  box-sizing: border-box;
+
+  &__icon {
+    margin-bottom: var(--padding-space-medium);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: var(--second-back-color);
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  span {
+    color: var(--third-text-color);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}

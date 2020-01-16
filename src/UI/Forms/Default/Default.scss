@@ -1,0 +1,16 @@
+.form-default {
+  background: var(--third-back-color);
+  padding: var(--padding-space-medium);
+  box-sizing: border-box;
+  h2 {
+    margin: 0;
+    padding-bottom: var(--padding-space-medium);
+    border-bottom: 1px dashed var(--border-color);
+    margin-bottom: var(--padding-space-medium);
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: var(--padding-space-big);
+  }
+}

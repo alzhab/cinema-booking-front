@@ -1,0 +1,21 @@
+.summary-cafe__heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: var(--padding-space-big);
+  h4 {
+    margin: 0;
+    color: var(--active-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 3rem;
+    margin: var(--padding-space-small) 0;
+  }
+  p {
+    margin: 0;
+    text-transform: capitalize;
+    color: var(--second-text-color);
+    font-weight: 400;
+  }
+}

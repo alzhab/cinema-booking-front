@@ -1,0 +1,32 @@
+.movie-shedule {
+  &__content {
+    padding: 100px 0;
+  }
+
+  &__modal {
+    text-align: center;
+    p {
+      margin: 0;
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+    h3 {
+      margin: 0;
+      text-transform: uppercase;
+      color: var(--active-color);
+      font-size: 1.5rem;
+      margin-bottom: var(--padding-space-big);
+    }
+  }
+
+  &__seats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--padding-space-big);
+  }
+
+  &__seat {
+    margin: 0 5px;
+  }
+}

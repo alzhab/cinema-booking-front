@@ -1,0 +1,25 @@
+.movies-home__top-container {
+  margin-bottom: calc(var(--padding-space-big) * 2);
+
+  @media (min-width: 769px) {
+    margin-bottom: -180px;
+  }
+
+  @media (min-width: 1225px) {
+    margin-bottom: -130px;
+  }
+
+  @media (min-width: 1672px) {
+    margin-bottom: -70px;
+  }
+}
+
+.movies-home__search {
+  box-sizing: border-box;
+  margin-top: var(--padding-space-big);
+  @media (min-width: 769px) {
+    transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: -180px;
+  }
+}

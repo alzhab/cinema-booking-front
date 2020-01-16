@@ -1,0 +1,37 @@
+.movie__aside {
+  width: 100%;
+  @media (min-width: 1200px) {
+    width: 25%;
+  }
+}
+
+.movie__offers-list {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (min-width: 1200px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.movie__offer {
+  box-sizing: border-box;
+  margin-right: var(--padding-space-medium);
+  min-width: 220px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 0;
+    min-width: initial;
+    margin-bottom: var(--padding-space-medium);
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

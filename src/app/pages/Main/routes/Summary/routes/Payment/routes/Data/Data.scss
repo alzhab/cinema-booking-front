@@ -1,0 +1,11 @@
+.summary-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  overflow-x: hidden;
+  & > div {
+    grid-column: 1 / -1;
+    margin-bottom: var(--padding-space-big);
+  }
+}

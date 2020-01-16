@@ -1,0 +1,17 @@
+.checkbox-form {
+  background: var(--third-back-color);
+  padding: var(--padding-space-medium) var(--padding-space-big);
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  h2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: var(--padding-space-small);
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: var(--padding-space-small);
+    font-size: 1.3rem;
+  }
+}

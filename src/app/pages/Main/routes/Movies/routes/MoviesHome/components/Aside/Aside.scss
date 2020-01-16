@@ -1,0 +1,58 @@
+.movies-home__aside {
+  margin-bottom: var(--padding-space-big);
+  @media (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+}
+
+.movies-home__filters {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (min-width: 1200px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.movies-home__checkbox-form {
+  margin-right: var(--padding-space-big);
+  min-width: 220px;
+  height: 163px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    height: 5px; /* for horizontal scrollbars */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  @media (min-width: 1200px) {
+    min-width: initial;
+    box-sizing: border-box;
+    height: auto;
+    margin-bottom: var(--padding-space-big);
+    margin-right: 0;
+    overflow-y: hidden;
+
+    &::-webkit-scrollbar {
+      height: 0; /* for horizontal scrollbars */
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+}

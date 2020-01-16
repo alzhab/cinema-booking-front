@@ -1,0 +1,44 @@
+.summary {
+  width: 100%;
+  &__synopsis {
+    margin-bottom: calc(var(--padding-space-medium) + 10px);
+    h2 {
+      margin: 0;
+      margin-bottom: var(--padding-space-medium);
+      text-transform: uppercase;
+    }
+    p {
+      margin: 0;
+      text-transform: none;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: var(--third-text-color);
+      line-height: 1.6;
+    }
+  }
+
+  &__block {
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: calc(var(--padding-space-medium) + 10px);
+    h2 {
+      margin: 0;
+      padding-bottom: var(--padding-space-medium);
+      border-bottom: 1px dashed var(--second-back-color);
+      margin-bottom: var(--padding-space-medium);
+      text-transform: uppercase;
+    }
+  }
+
+  &__block-list {
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__card {
+    margin-right: 60px;
+  }
+}

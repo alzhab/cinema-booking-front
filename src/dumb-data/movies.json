@@ -1,0 +1,14 @@
+[{
+  "id": 0,
+  "title": "movie 1",
+  "synopsis": "description",
+  "languages": ["en", "HINDI", "TELUGU", "TAMIL"],
+  "releaseDate": "06 DEC, 2019",
+  "timing": "2 HRS 50 MINS",
+  "audienceRating": 88,
+  "usersRating": 4.3,
+  "genres": [
+    "thriller",
+    "horror"
+  ]
+}]

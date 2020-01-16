@@ -1,0 +1,30 @@
+.aside {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--padding-space-big);
+    h2 {
+      color: #fff;
+      color: var(--second-text-color);
+      margin: 0;
+      padding: 0;
+    }
+    span {
+      color: #be3924;
+      cursor: pointer;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    width: 25%;
+    display: inline-block;
+    margin-right: var(--padding-space-big);
+  }
+}

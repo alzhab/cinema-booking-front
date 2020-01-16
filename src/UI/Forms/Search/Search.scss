@@ -1,0 +1,11 @@
+.search {
+  background: var(--third-gradient);
+  padding: 0 var(--padding-space-medium);
+  display: flex;
+  flex-direction: column;
+
+  @media (min-height: 700px) {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

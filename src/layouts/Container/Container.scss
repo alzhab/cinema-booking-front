@@ -1,0 +1,14 @@
+.container {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+
+  @media (min-width: 971px) {
+    width: 75%;
+  }
+
+  @media (min-width: 1324px) {
+    width: 55%;
+  }
+}

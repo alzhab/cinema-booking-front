@@ -1,0 +1,16 @@
+.summary-cafe__filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.summary-cafe__filter {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  box-sizing: border-box;
+  margin-bottom: var(--padding-space-big);
+
+  &:hover {
+  }
+}

@@ -1,0 +1,107 @@
+.row {
+  display: flex;
+  align-items: center;
+  background: var(--fourth-back-color);
+  border-bottom: 1px solid var(--border-color);
+  flex-direction: column;
+
+  &__cinema-name {
+    padding: var(--padding-space-big);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+    h3 {
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-left: var(--padding-space-medium);
+      margin-right: auto;
+    }
+    i.fa-map-marker-alt {
+      padding: 7px 10px;
+      border-radius: 50px;
+      text-align: center;
+      background: var(--fifth-back-color);
+    }
+
+    @media (min-width: 900px) {
+      width: 35%;
+      border-bottom: 0;
+      border-right: 1px solid var(--border-color);
+    }
+  }
+
+  &--active {
+    i {
+      color: red;
+    }
+    i.fa-map-marker-alt {
+      background: var(--active-color);
+      color: var(--fourth-back-color);
+    }
+  }
+
+  &__cinema-times {
+    overflow-x: scroll;
+    width: 100%;
+    box-sizing: border-box;
+    padding: var(--padding-space-big);
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 900px) {
+      width: 65%;
+      border-right: 1px solid var(--border-color);
+    }
+  }
+
+  &__time {
+    background: var(--fifth-back-color);
+    font-weight: 400;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    margin-right: calc(var(--padding-space-big) + 10px);
+    transition: 0.3s ease-out;
+
+    &:after,
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 15px;
+      height: 15px;
+      background: var(--fourth-back-color);
+      border-radius: 50%;
+    }
+
+    &:after {
+      left: 0;
+      transform: translate(-50%, -50%);
+    }
+    &:before {
+      right: 0;
+      transform: translate(50%, -50%);
+    }
+    span {
+      padding: 3px 5px;
+      border: 2px solid #808ba5;
+      display: inline-block;
+      font-size: 1.3rem;
+      border-radius: 2px;
+    }
+
+    &:hover {
+      background: var(--active-color);
+      span {
+        border-color: var(--fourth-back-color);
+      }
+    }
+  }
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+}
